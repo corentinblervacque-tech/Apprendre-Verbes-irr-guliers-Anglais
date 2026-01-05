@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🇬🇧 MasterVerbs Learning 🇬🇧</title>
+    <link rel="icon" href="https://fav.farm/🇬🇧">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body oncontextmenu="return false;">
+    <div class="container">
+        <h1>🇬🇧 MasterVerbs Learning 🇬🇧</h1>
+        <div class="nav">
+            <button class="btn-cours" onclick="showSection('cours')">📖 Cours</button>
+            <button class="btn-exo" onclick="showSection('exercice')">✍️ Exercices</button>
+            <button class="btn-eval" onclick="showSection('evaluation')">🎓 Évaluation</button>
+        </div>
+        <div id="section-cours">
+            <input type="text" id="search" class="search-bar" placeholder="🔍 Chercher un verbe..." onkeyup="searchVerb()">
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>Infinitif</th><th>Prétérit</th><th>Participe</th><th>Français</th></tr></thead>
+                    <tbody id="table-body-cours"></tbody>
+                </table>
+            </div>
+        </div>
+        <div id="section-exercice" style="display:none;"><div id="exercice-container"></div></div>
+        <div id="section-evaluation" style="display:none;"><div id="evaluation-container"></div></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
