@@ -32,5 +32,5 @@ Ce projet est fièrement développé avec passion par **Corentin BLERVACQUE**.
 > "Coder, c'est comme apprendre l'anglais : au début on bégaye, à la fin on crée des mondes."
 
 ---
-© 2026 **Corentin BLERVACQUE** - [MIT License](LICENSE) 
+© 2026 **Corentin BLERVACQUE** - 
 *No irregular verbs were harmed during the making of this app.* ☕
